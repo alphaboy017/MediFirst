@@ -14,7 +14,7 @@ const handler = NextAuth({
         const adminUser = {
           id: "1",
           username: "admin",
-          password: "admin123@123", // Change this to a strong password!
+          password: "your-password-here", // Change this to a strong password!
         };
         if (
           credentials.username === adminUser.username &&
