@@ -6,7 +6,7 @@ require('dotenv').config({ path: path.resolve(__dirname, '../.env.local') });
 const Product = require('../app/models/Product').default;
 const Bill = require('../app/models/Bill').default;
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://nihal:nihal@cluster0.t1vwq.mongodb.net/medicalstore?retryWrites=true';
+const MONGODB_URI = process.env.MONGODB_URI || 'your-mongo-url';
 const BACKUP_DIR = path.resolve(__dirname, '../backups');
 
 async function main() {
